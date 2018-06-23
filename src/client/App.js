@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
       <div>
         {this.state.username ? (
-          <h1>Hello {this.state.username}</h1>
+          <h1>Wassup {this.state.username}</h1>
         ) : (
           <h1>Loading.. please wait!</h1>
         )}
